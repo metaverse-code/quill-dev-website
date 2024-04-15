@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for phones */
+@media only screen and (max-width: 599px) {
+    /* Add specific styles for phones here */
+    body {
+        background-color: lightblue;
+    }
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+    /* Add specific styles for tablets here */
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/* Styles for laptops */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    /* Add specific styles for laptops here */
+    body {
+        background-color: lightyellow;
+    }
+}
+
+/* Styles for larger screens */
+@media only screen and (min-width: 1440px) {
+    /* Add specific styles for larger screens here */
+    body {
+        background-color: lightpink;
+    }
+}
